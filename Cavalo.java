@@ -2,7 +2,9 @@ package heranca;
 
 public class Cavalo extends Heranca {
 
-		private String correr;
+		String correr;
+		String getNome;
+		Object getIdade;
 		{
 						
 		}
@@ -11,5 +13,18 @@ public class Cavalo extends Heranca {
 		}
 		public void setCorrer(String correr) {
 			this.correr = correr;
+			
+		}
+		public String getGetNome() {
+			return getNome;
+		}
+		public void setGetNome(String getNome) {
+			this.getNome = getNome;
+		}
+		public Object getGetIdade() {
+			return getIdade;
+		}
+		public void setGetIdade(Object getIdade) {
+			this.getIdade = getIdade;
 		}
 }

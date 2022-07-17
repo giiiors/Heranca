@@ -1,18 +1,16 @@
 package heranca;
 
 public class TesteHeranca {
+	public static void main (String args[])
 
 	{
-		Heranca c1 = new Heranca();
-		c1.setNome("Bojack");
-		System.out.println("O nome do cavalo é:"+c1.getNome());
-		
-		{
-			Cavalo c2 = new Cavalo();
 			
-		}
-		
-		
+			Cavalo meuCavalo = new Cavalo();
+			meuCavalo.getNome = "Bojack";
+			meuCavalo.getIdade = "15";
+			System.out.println(meuCavalo.getNome);
+			System.out.println(meuCavalo.getIdade + " anos" );
+			
 	}
 	
 	
