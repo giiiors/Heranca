@@ -1,12 +1,7 @@
 package heranca;
 
 public class Heranca {
-	// Possui nome
-	// Possui idade
-	// Deve emitir som
-	// Deve correr / deve subir em árvores 
-	// distribua as características de forma que tudo o que for comum a todos os animais fique na classe animal
-	
+		
 	private String nome;
 	private int idade;
 	private String som;

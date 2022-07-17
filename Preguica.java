@@ -3,6 +3,7 @@ package heranca;
 public class Preguica extends Heranca {
 	
 	private String escalar;
+	
 	{
 		
 	}

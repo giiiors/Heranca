@@ -5,6 +5,7 @@ public class Cavalo extends Heranca {
 		String correr;
 		String getNome;
 		Object getIdade;
+		String getSom;
 		{
 						
 		}
