@@ -2,10 +2,8 @@ package heranca;
 
 public class Cachorro extends Heranca {
 
-	private String correr;
-			String getNome;
-			Object getIdade;
-			String som;
+			public String getNome;
+			public String getIdade;
 			public String getSom;
 			public String getCorrer;
 			
@@ -18,25 +16,23 @@ public class Cachorro extends Heranca {
 		public void setGetNome(String getNome) {
 			this.getNome = getNome;
 		}
-		public Object getGeIdade() {
+		public String getGetIdade() {
 			return getIdade;
 		}
-		public void setGeIdade(Object geIdade) {
-			this.getIdade = geIdade;
+		public void setGetIdade(String getIdade) {
+			this.getIdade = getIdade;
 		}
-	public String getCorrer() {
-		return correr;
-	}
-	public void setCorrer(String correr) {
-		this.correr = correr;
-	}
-	public String getSom() {
-		return som;
-	}
-	public void setSom(String som) {
-		this.som = som;
-	}
-	
-	
-	
+		public String getGetSom() {
+			return getSom;
+		}
+		public void setGetSom(String getSom) {
+			this.getSom = getSom;
+		}
+		public String getGetCorrer() {
+			return getCorrer;
+		}
+		public void setGetCorrer(String getCorrer) {
+			this.getCorrer = getCorrer;
+		}
 }
+
